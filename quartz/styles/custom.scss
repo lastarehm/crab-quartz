@@ -1,6 +1,7 @@
 @use "./base.scss";
 
 // put your custom CSS here!
-a.internal.is-unresolved {
-  color: #3a3a3a; /* or whatever color you want */
+a.internal.is-unresolved,
+a.internal.is-unresolved:visited {
+  color: #ff6b6b !important;
 }
